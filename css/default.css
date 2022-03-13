@@ -1,0 +1,39 @@
+/* This is a comment in css*/
+/* you need the lash star to start and end with star lash*/
+
+.margindefault{
+
+  background-color: blue;
+
+
+}
+
+.bodydefault{
+
+  background-color: white;
+}
+
+
+.pdefault{
+
+}
+
+.box{
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  margin: 50px;
+  border: 10px solid black;
+  background-color: red;
+
+}
+
+
+
+
+
+
+/*
+h1 {
+  color: green;
+}
