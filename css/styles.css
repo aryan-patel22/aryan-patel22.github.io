@@ -1,0 +1,25 @@
+/* This is a comment in css*/
+/* you need the lash star to start and end with star lash*/
+
+{
+  box-sizing: border-box;
+  font-family: 
+}
+
+
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.main-header{
+    background-color: rgba(0, 0, 0, 0.3);
+    background-image: url("../images/smokeheader.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px
+}
