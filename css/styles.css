@@ -1,25 +1,224 @@
 /* This is a comment in css*/
 /* you need the lash star to start and end with star lash*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
 
-{
-  box-sizing: border-box;
-  font-family: 
+@font-face {
+  font-family: "Bangers - Regular";
+  src: url("../fonts/Bangers-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
 }
 
+* {
+  box-sizing: border-box;
+  font-family: 'Quicksand';
+  color: #777;
+}
 
 html, body{
   margin: 0;
   padding: 0;
+
 }
 
 .nav ul{
     margin: 0;
 }
 
+.nav li{
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 0.5em;
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3)
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: 'Changa';
+  font-weight: lighter;;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #190061;
+}
+
+.main-nav li{
+  padding: 0 5%;
+}
+
 .main-header{
     background-color: rgba(0, 0, 0, 0.3);
-    background-image: url("../images/smokeheader.jpg");
+    background-image: url("../images/livheader4.jpg");
     background-blend-mode: multiply;
     background-size: cover;
-    padding-bottom: 30px
+}
+
+.main-header-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me-image{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.my-name{
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+  font-family: 'Racing Sans One';
+  font-weight: normal;
+  color: white;
+}
+
+.my-name-large{
+  font-size: 5em;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+.section-container{
+  max-width: none;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5em;
+}
+
+.section-container-me{
+  background-color: #FFC740;
+  max-width: none;
+  border-width: thin;
+}
+
+.section-container-me p{
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0;
+}
+
+.section-header{
+  font-family: 'Changa';
+  text-transform: uppercase;
+  color: #333;
+  text-align: center;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.col{
+  text-align: center;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.col img{
+  height: 150px;
+  width: 200px;
+}
+
+.col-me{
+  display: inline-block;
+}
+
+.row{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.row img{
+  vertical-align: middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  height: 90px;
+  width: 90px;
+}
+
+.row p{
+  font-family: 'Comfortaa';
+  font-size: 1.5em;
+}
+
+.row-bottom{
+  padding: 0 10px;
+}
+
+.row-me p{
+  font-family: 'Quicksand';
+  text-align: left;
+  font-size: 1.7em;
+}
+
+.row-me h3{
+  color: #5f5f5f;
+  font-size: 1.4em;
+  font-style: italic;
+}
+
+.row-me-right{
+  padding-left: 250px;
+}
+
+.btn{
+  text-align: center;
+}
+
+.row-project h3{
+  font-family: 'Metrophobic';
+  font-size: 1.5em;
+}
+
+.row-project img{
+  padding: 15px;
+  height: 200px;
+  width: 300px;
+}
+
+.main-footer{
+  background-color: #190061;
+  color: white;
+  padding: .25em 0; /*first top n bottom second left n right*/
+}
+
+.main-footer-container{
+  display: flex;
+  align-items: center;
+  }
+
+.main-footer-container ul{
+  flex-grow: 1;
+  text-align: end;
+  }
+
+.footer-nav{
+  padding: 0 .5em;
+}
+
+.footer-nav img{
+  width: 30px;
+  height: 30px;
 }

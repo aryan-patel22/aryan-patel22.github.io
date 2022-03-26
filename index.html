@@ -15,75 +15,151 @@
 
 
   <body>
+
     <header class="main-header">
-      <nav class="nav">
+      <nav class="nav main-nav">
         <ul>
-          <li> <a href="#about">About Me</a> </li>
           <li> <a href="#skills">Skills</a> </li>
+          <li> <a href="#about">About Me</a> </li>
           <li> <a href="#projects">Projects</a> </li>
           <li> <a href="#contact">Contact Me</a> </li>
         </ul>
       </nav>
-      <hr>
-      <h3>A hundred mistakes are an education if you learn something from each one</h3>
+      <div class="main-header-container">
+        <div>
+          <img class = "about-me-image"src="images/headpicgimp.png">
+        </div>
+        <div>
+          <h1 class="my-name my-name-large">Aryan Patel</h1>
+          <h1 class="my-name">Software Engineer</h1>
+        </div>
+      </div>
     </header>
 
-     <!--class="main-header"-->
-
-    <section id="about">
-      <h1>Hello World! My name is</h1>
-      <h1>Aryan Patel - Software Engineer<h1>
-      <h2>About Me</h2>
-      <img src="images/avatar.png" width = "50">
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-      do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      Maecenas ultricies mi eget mauris pharetra et ultrices neque.
-      Pretium viverra suspendisse potenti nullam ac tortor vitae. Id
-      aliquet risus feugiat in ante. Tristique senectus et netus et.
-      Dis parturient montes nascetur ridiculus mus mauris vitae
-      ultricies. Ornare lectus sit amet est placerat in egestas erat.
-      In metus vulputate eu scelerisque felis imperdiet proin fermentum
-      leo. Scelerisque fermentum dui faucibus in ornare. Consectetur a
-      erat nam at lectus urna duis convallis. Vehicula ipsum a arcu
-      cursus vitae congue mauris rhoncus. Nec feugiat nisl pretium fusce
-      id. Vestibulum lectus mauris ultrices eros. Amet nisl suscipit
-      adipiscing bibendum est ultricies integer quis auctor. Nunc
-      vel risus commodo viverra.</p>
+    <section id = skills>
+      <div class=" container section-container">
+          <h2 class="section-header">Skills and Tools</h2>
+          <div class="col">
+            <div class="row">
+              <img src="images/java_logo.png">
+              <p>Java</p>
+            </div>
+            <div class="row">
+              <img src="images/python_logo.png">
+              <p>Python</p>
+            </div>
+            <div class="row">
+              <img src="images/cpp_logo.png">
+              <p>C++</p></li>
+            </div>
+            <div class="row">
+              <img src="images/html_logo.png">
+              <p>HTML</p></li>
+            </div>
+            <div class="row">
+              <img src="images/css_logo.png">
+              <p>CSS</p></li>
+            </div>
+            <div class="row">
+              <img src="images/js_logo.png">
+              <p>JavaScript</p></li>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row row-bottom">
+              <img src="images/sql_logo.png">
+              <p>SQL</p></li>
+            </div>
+            <div class="row row-bottom">
+              <img src="images/matlab_logo.png">
+              <p>Matlab</p></li>
+            </div>
+            <div class="row row-bottom">
+              <img src="images/git_logo.png">
+              <p>Git</p></li>
+            </div>
+            <div class="row row-bottom">
+              <img src="images/github_logo.png">
+              <p>GitHub</p></li>
+            </div>
+          </div>
+         <div class="btn">
+          <a href=doc/Aryan_Patel_Resume.pdf target="_blank"><button type="button">Resume</button></a>
+         </div>
+      </div>
     </section>
 
-    <section id = skills>
-      <h2>Skills</h2>
-      <img src="images/top-programming-languages.jpg" height = "100">
-      <p> Velit egestas dui id ornare. Imperdiet sed euismod nisi porta
-      lorem. Ut sem nulla pharetra diam. Aliquet eget sit amet tellus cras
-      adipiscing. Cursus euismod quis viverra nibh cras pulvinar mattis
-      nunc sed. Tellus pellentesque eu tincidunt tortor aliquam nulla
-      facilisi cras. In hac habitasse platea dictumst. ornare quam viverra.
-      <button type="button">Resume</button>
-      </p>
+    <section id="about">
+      <div class=" container section-container section-container-me">
+        <h2 class="section-header">About Me</h2>
+          <p>
+            My coding journey started back in 2017 as a sophomore
+            in High School where I had an amazing mentor that showed me the
+            endless possibilities I could create with it. Now I'm pursuing a
+            degree in computer science and breaking into this exciting career. My teachers would
+            describe me as energetice and a fast eager learner while
+            my peers would say that I have incredible communication,
+            remarkable leadership, and efficent management abilites. Challenges
+            in my life have also taught me to be adaptable in any situation I
+            come across and being able to change course at a whims notice if needed.
+          </p>
+          <div class="col col-me">
+            <div class="row row-me">
+              <h3>Additional Skills</h3>
+              <ul>
+                <li> <p>Experience with hardware and software implementation</p> </li>
+                <li> <p>Excel, Powerpoint, Word certified</p> </li>
+                <li> <p>Pleasant and easy in social intercourse</p> </li>
+              </ul>
+            </div>
+            <div class="row row-me row-me-right">
+              <h3>Fun Facts</h3>
+              <ul>
+                <li> <p>Can play the guitar</p> </li>
+                <li> <p>Speaks 4 languages</p> </li>
+                <li> <p>Can cook</p> </li>
+              </ul>
+            </div>
+          </div>
+      </div>
     </section>
 
     <section id = "projects">
-      <h2>Projects</h2>
-      <img src="images/resumewebholder.png" width = "50">
-      <p>odio pellentesque diam. Turpis in eu mi bibendum neque egestas.
-        Volutpat consequat mauris nunc congue nisi vitae suscipit. Elit eget
-        gravida cum sociis natoque penatibus et magnis. Pharetra diam sit amet
-        nisl suscipitb adipiscing bibendum. Condimentum mattis pellentesque
-        id nibh tortor id aliquet. Scelerisque fermentum dui faucibus in
-      </p>
+      <div class="container section-container">
+        <h2 class="section-header">Featured Projects</h2>
+        <div>
+          <div class="col">
+            <div class="row row-project">
+              <img src="images/resume_website_project.png">
+              <h3>Personal Website</h3>
+            </div>
+            <div class="row row-project">
+             <img src="images/rc_car.png">
+             <h3>Bluetooth RC Car and App</h3>
+           </div>
+           <div class="row row-project">
+           <img src="images/led_board.png">
+           <h3>LED Drawing Board</h3>
+          </div>
+        </div>
+      </div>
+        <div class="btn">
+          <a href="html/project.html"> <button type="button">More Projects</button> </a>
+        </div>
+      </div>
     </section>
 
-    <footer id = "contact">
-      <h2>Contact Me</h3>
-        <img src="images/contactmeholder.png" style="max-width:100%;height:auto;">
-        <ul>
-          <li> <a href="https://www.linkedin.com/in/aryan-patel-b723281b5?lipi" target="_blank">This is a link to my linkedin</a></li>
-          <li> <img src="images/twitter.png" width = "25"> </li>
-          <li> <img src="images/instagram.png" width = "25"> </li>
-          <li> <img src="images/youtube.png" width = "25"> </li>
+    <footer id = "contact" class="main-footer">
+      <div class="container main-footer-container">
+      <h2 class="my-name">Socials</h2>
+        <ul class="nav footer-nav">
+          <li> <a href="mailto: aripatel122@yahoo.com" target="_blank"> <img src="images/email_logo.png"> </a> </li>
+          <li> <a href="https://www.linkedin.com/in/aryan-patel-b723281b5?lipi" target="_blank"> <img src="images/linkedin_logo.png"> </a> </li>
+          <li> <a href="https://twitter.com/aryan_patel22" target="_blank"><img src="images/twitter_logo.png"> </a> </li>
+          <li> <a href="https://www.instagram.com/aryan_patel22/" target="_blank"><img src="images/instagram_logo.png"> </a> </li>
+          <li> <a href="https://open.spotify.com/user/patel_22?si=3454a03b336f4134" target="_blank"><img src="images/spotify_logo.png"> </a> </li>
         </ul>
+      </div>
     </footer>
 
   </body>
