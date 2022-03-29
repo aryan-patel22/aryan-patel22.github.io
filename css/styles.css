@@ -138,7 +138,7 @@ html, body{
 }
 
 .col-me{
-  display: inline-block;
+  display: flex;
 }
 
 .row{
@@ -149,7 +149,6 @@ html, body{
 }
 
 .row img{
-  vertical-align: middle;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -167,10 +166,12 @@ html, body{
   padding: 0 10px;
 }
 
-.row-me p{
-  font-family: 'Quicksand';
-  text-align: left;
-  font-size: 1.7em;
+.row-me{
+ flex:1;
+}
+
+.row-me ul{
+  display: inline-block;
 }
 
 .row-me h3{
@@ -179,8 +180,10 @@ html, body{
   font-style: italic;
 }
 
-.row-me-right{
-  padding-left: 250px;
+.row-me p{
+  font-family: 'Quicksand';
+  font-size: 1.7em;
+  text-align: left;
 }
 
 .btn{
